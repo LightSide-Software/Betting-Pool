@@ -19,7 +19,7 @@ table{
 	padding: 10px;
 	margin-bottom: 15px;
 	align: center;
-	background: rgba(0,0,0, 0.5);
+	background: rgba(0,0,0, 0.7);
 }
 
 td {
@@ -45,7 +45,7 @@ body {
 }
 input[type=submit] {
     width: 20%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
