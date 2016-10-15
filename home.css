@@ -41,6 +41,8 @@ div {
 
 body {
 	background-image: url(dice.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: white;
 }
 input[type=submit] {
