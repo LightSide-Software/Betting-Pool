@@ -18,5 +18,37 @@
         <input type="submit" value="Create New Betting Pool" />
     </form>
 </div>
+<table align="center" frame="box" width="500">
+  <tbody>
+    <tr>
+      <td><h2>Bears vs. Packers</h2></td>
+    </tr>
+    <tr>
+      <td>Thursday, Oct 20 at 8:25pm</td>
+    </tr>
+    <tr>
+      <td>Entry Cost: $2.00</td>
+    </tr>
+    <tr>
+      <td>Total Participants: 13</td>
+    </tr>
+  </tbody>
+</table>
+<table align="center" frame="box" width="500">
+  <tbody>
+    <tr>
+      <td><h2>Knicks vs. Cavaliers</h2></td>
+    </tr>
+    <tr>
+      <td>Tuesday, Oct 25 at 8:00pm</td>
+    </tr>
+    <tr>
+      <td>Entry Cost: $0.75</td>
+    </tr>
+    <tr>
+      <td>Total Participants: 17</td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
