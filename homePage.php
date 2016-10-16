@@ -15,14 +15,15 @@
 </form>
 <h1>Betting Pool</h1>
 <div class="createNew">
-    <form action="http://google.com">
-        <input type="submit" value="Create New Betting Pool" />
-    </form>
+    
+        <a href="createRoom.html"><input type="submit" value="Create New Betting Room" /></a></br>
+		<a href="manageRoom.html"><input type="submit" value="Manage Room" /></a>
+   
 </div>
 <table align="center" frame="box" width="500">
   <tbody>
     <tr>
-      <td><h2>Bears vs. Packers</h2></td>
+      <td><h2><a href="viewRoom.html">Broncos vs. Patriots</a></h2></td>
     </tr>
     <tr>
       <td>Thursday, Oct 20 at 8:25pm</td>
@@ -38,7 +39,7 @@
 <table align="center" frame="box" width="500">
   <tbody>
     <tr>
-      <td><h2>Knicks vs. Cavaliers</h2></td>
+      <td><h2><a href="viewRoom.html">Knicks vs. Cavaliers</a></h2></td>
     </tr>
     <tr>
       <td>Tuesday, Oct 25 at 8:00pm</td>
