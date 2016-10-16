@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <title>Betting Pool Home</title>
 <link href="home.css" rel="stylesheet" type="text/css">
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body>
 <form align="right" name="form1" method="post" action="log_out.php">
   <label class="logoutLblPos">
-  <input name="submit2" type="submit" id="submit2" value="Log Out">
+  <a href="BPP.php"><input name="submit2" type="button" id="submit2" value="Log Out"></a>
   </label>
 </form>
 <h1>Betting Pool</h1>
