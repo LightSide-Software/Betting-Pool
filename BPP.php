@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 <link href="css.css" rel="stylesheet" type="text/css">
 </head>
 <body>
