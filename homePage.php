@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Betting Pool Home</title>
 <link href="home.css" rel="stylesheet" type="text/css">
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body>
