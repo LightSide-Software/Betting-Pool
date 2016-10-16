@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Betting Pool - Log In</title>
 <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 <link href="css.css" rel="stylesheet" type="text/css">
 </head>
