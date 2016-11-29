@@ -31,34 +31,34 @@
             <label>
               Username
             </label>
-            <input type="text" class="form-control">
+            <input type="text" id="username" required class="form-control">
           </div>
           <div class="form-group">
             <label>
               Password
             </label>
-            <input type="password" class="form-control">
+            <input type="password" id="password"  required class="form-control">
           </div>
           <div class="form-group">
             <label>
               Email
             </label>
-            <input type="text" class="form-control">
+            <input type="text" id="email" required class="form-control">
           </div>
           <div class="form-group">
             <label>
               Phone
             </label>
-            <input type="number" class="form-control">
+            <input type="number" id="phone" required class="form-control">
           </div>
           <div class="form-group">
             <label>
               Name
             </label>
-            <input type="text" class="form-control">
+            <input type="text" id="name" required class="form-control">
           </div>
           <center>
-            <a href="homePage.php"><button type="submit" class="btn btn-success">
+            <a href="BPP.php"><button type="submit"  class="btn btn-success">
               Register
             </button></a>
           </center>
@@ -75,5 +75,23 @@
     >
     </script>
   </body>
-
 </html>
+<?php 
+  require_once('databaseSensitiveInfo.php');
+
+  $conn = mysqli_connect($servername, $username, $password, $dbname);
+
+  if (!$conn){
+    die("Connection failed: " . mysqli_connect_error());
+  }
+
+  $username_Insert = "INSERT INTO Users (Username, Email, Name, Phone, Password) VALUES ($_GET('username'), $_GET('email'), $_GET('name'),$_GET('phone'), $_GET('password'));
+
+  if(mysqli_query($conn, $sql_Insert)){
+     echo "You are registerd!";
+    } else{
+      echo "ERROR: Could not excute: $sql. " . mysqli_error($conn);
+    }
+
+  mysqli_close($conn);
+?>
