@@ -85,7 +85,7 @@
     die("Connection failed: " . mysqli_connect_error());
   }
 
-  $username_Insert = "INSERT INTO Users (Username, Email, Name, Phone, Password) VALUES ($_GET('username'), $_GET('email'), $_GET('name'),$_GET('phone'), $_GET('password'));
+  $username_Insert = "INSERT INTO Users (Username, Email, Name, Phone, Password) VALUES ($_GET('username'), $_GET('email'), $_GET('name'),$_GET('phone'), $_GET('password'))";
 
   if(mysqli_query($conn, $sql_Insert)){
      echo "You are registerd!";
