@@ -19,7 +19,7 @@ table{
 	padding: 10px;
 	margin-bottom: 15px;
 	align: center;
-	background: rgba(0,0,0, 0.7);
+	background: rgba(255,255,255, 0.7);
 }
 
 td {
@@ -43,7 +43,7 @@ body {
 	background-image: url(dice.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	color: white;
+	color: black;
 }
 input[type=submit] {
     width: 20%;
